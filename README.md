@@ -17,4 +17,4 @@ Let me describe the files here:
 * ``apoyo_random_walk.R``: Simulación de un RW simple.
 * ``apoyo_random_walk_1D.R``: Simulación de un RW simple en 1 dimensión.
 * ``apoyo_brownian_motion.R``: Simulación de un Brownian motion.
-
+* ``simulating_gbm_stock_multiple_times.R``: Simulación de un Geometric Brownian motion.
