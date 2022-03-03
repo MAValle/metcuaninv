@@ -25,6 +25,13 @@ Let me describe the files here:
 * ``apoyo_clase_sim_montecarlo.R``: MC simulation for GBM.
 
 
+
+## Scripts Granger Causality
+
+* ``apoyo_granger_test_student``: Ejemplo de Granger Causality
+
+
+
 ## Scripts Risk VAR
 
 * ``simulating_gbm_stock_VAR.R``: Cómputo de VAR de GBM.
