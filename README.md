@@ -23,3 +23,11 @@ Let me describe the files here:
 ## Scripts MC sim
 
 * ``apoyo_clase_sim_montecarlo.R``: MC simulation for GBM.
+
+
+## Scripts Risk VAR
+
+* ``simulating_gbm_stock_VAR.R``: Cómputo de VAR de GBM.
+
+
+
