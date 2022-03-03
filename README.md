@@ -12,7 +12,7 @@ Let me describe the files here:
 * ``autocorrelation_GemBrownianMotion.py``: Cálculo de la función de autocorrelación para un GBM.
 
 
-## Scripts Ramdom walks
+## Scripts Random Walks (RWs)
 
 * ``apoyo_random_walk.R``: Simulación de un RW simple.
 * ``apoyo_random_walk_1D.R``: Simulación de un RW simple en 1 dimensión.
