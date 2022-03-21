@@ -1,0 +1,34 @@
+# Script apoyo para *distribucion de los retornos*
+
+
+
+
+rm(list = ls())
+library(quantmod)
+library(tidyverse)
+
+
+# get DJIA y sp500 diario desde 1960 hasta tiempos actuales
+getSymbols("DJIA" , src="FRED", from="2010-01-01", to="2020-08-10")
+
+# plot
+plot(DJIA, main="DJIA")
+
+
+# plot de los retornos
+dj_ret = periodReturn(DJIA, period="daily")
+plot(dj_ret, main="DJ daily returns")
+
+
+# plot del histograma de los retornos
+
+yl = c( min(DS$y), max(DS$y)) # limites
+DS <- density(dj_ret)
+hist(dj_ret, probability=T, xlab = "DJIA returns", main = NULL, ylim=yl, breaks = 40)
+rug(dj_ret)
+lines(DS, col='red')
+a = seq(min(dj_ret), max(dj_ret), 0.001)
+lines(a, dnorm(a, mean(dj_ret), sd(dj_ret)), col='blue')
+
+
+shapiro.test(as.numeric(dj_ret))
