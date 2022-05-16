@@ -27,6 +27,12 @@ Let me describe the files here:
 
 
 
+## Unit root test
+
+* ``unit_root_test_students.R``: Ejemplo aplicación URT.
+
+
+
 ## Scripts Granger Causality
 
 * ``apoyo_granger_test_student``: Ejemplo de Granger Causality
