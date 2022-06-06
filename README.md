@@ -43,6 +43,7 @@ Let me describe the files here:
 ## Scripts Risk VAR
 
 * ``simulating_gbm_stock_VAR.R``: Cómputo de VAR de GBM.
+* ``vaR_ExpectedShortfall_ejemplo``: Ejemplo Cómputo de ES en R.
 
 
 
