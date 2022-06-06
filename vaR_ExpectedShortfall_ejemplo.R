@@ -44,4 +44,4 @@ abline(v = VaR99 , col = "red")
 abline(v = ES99, col = "green")
 
 # En este caso ES99 es solo 14.7% mas grande que el VaR. Para 
-# colas pesadas, la diferencia puede ser mucho mas grande.
+# colas pesadas, la diferencia puede ser mucho mas grande. 
